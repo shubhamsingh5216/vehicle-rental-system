@@ -10,15 +10,13 @@ class Vehicle:
         print(f"Price per day: ₹{self.daily_price}")
 
     def calculate_rent(self, days):
-        # basic rent calculation
         if days <= 0:
             print("Days should be more than 0")
             return 0
 
         total = self.daily_price * days
 
-        # small discount if rented longer
         if days > 5:
-            total *= 0.9  # 10% off
+            total *= 0.9
 
         return int(total)

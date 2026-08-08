@@ -10,6 +10,5 @@ class Car(Vehicle):
         print(f"Seats: {self.seats}")
 
     def calculate_rent(self, days):
-        # cars have slight extra charge
         base = super().calculate_rent(days)
         return base + 200

@@ -1,7 +1,6 @@
 from car import Car
 from bike import Bike
 
-# creating some vehicles manually
 car1 = Car("KA01AB1234", "Toyota", 1000, 5)
 car2 = Car("KA03CD5678", "Honda", 1200, 7)
 bike1 = Bike("KA02XY1111", "Yamaha", 500, 150)

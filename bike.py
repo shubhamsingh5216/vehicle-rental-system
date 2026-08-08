@@ -8,5 +8,3 @@ class Bike(Vehicle):
     def display(self):
         super().display()
         print(f"Engine: {self.engine_cc}cc")
-
-    # keeping same rent logic for now
