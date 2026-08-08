@@ -75,7 +75,7 @@ vehicle-rental-system/
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/shubhamsingh5216/vehicle-rental-system.git
 cd vehicle-rental-system
 ```
 
